@@ -13,7 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
-        
+
 </head>
 
 <body>
@@ -42,21 +42,21 @@
     <section class="we__offer">
         <div class="we__offer_card_container">
             <div class="card">
-                <img src="images/item1.png"/>
+                <img src="images/item1.png" />
                 <h2>Order Online</h2>
                 <p>Stay home and order to your doorstep</p>
             </div>
             <div class="card">
-                <img src="images/item2.png"/>
+                <img src="images/item2.png" />
                 <h2>Dining</h2>
                 <p>View the city's favorute dining venues</p>
             </div>
             <div class="card">
-                <img src="images/item3.png"/>
+                <img src="images/item3.png" />
                 <h2>Nightlife and Clubs</h2>
                 <p>Explore the city's top nightlife outlets</p>
             </div>
-            
+
         </div>
     </section>
 
@@ -271,46 +271,184 @@
                 </div>
                 <p>></p>
             </div>
-            
-            <div class="Popular_localities_cards see_more_or_less" >
-                <h2 class="places" id="see_more_or_less" >see more ></h2>
+
+            <div class="Popular_localities_cards see_more_or_less">
+                <h2 class="places" id="see_more_or_less">see more ></h2>
             </div>
         </div>
     </section>
 
     <section class="get_app">
         <div class="get_app_mobile_image">
-            <img src="images/mobileBanner.png"/>
+            <img src="images/mobileBanner.png" />
         </div>
         <div class="get_app_content">
             <h1 class="get_app_content_h1">Get the Zomato app</h1>
             <p class="get_app_content_p">We will send you a link, open it on your phone to download the app</p>
             <div class="get_app_radio">
-                <input type="radio" name="register" value="Email" id="Email"><label for="Email">Email</label>
-                <input type="radio" name="register"  value="Phone" id="Phone"><label for="Phone">Phone</label>
+                <input type="radio" name="register" value="Email" id="Email" onclick="showEmailInput()" /><label for="Email" onclick="showEmailInput()">Email</label>
+                <input type="radio" name="register" value="Phone" id="Phone" onclick="showNumberInput()" /><label for="Phone" onclick="showNumberInput()">Phone</label>
             </div>
             <div class="get_app_input">
-                <input class="email" placeholder="Email" type="email" name="email"/>
+                <input class="email" placeholder="Email" type="email" name="email" "/>
                 <div class="get_app_input_number">
                     <select name="countryCode">
                         <option value="+91">+91</option>
                         <option value="+60">+60</option>
                     </select>
                     <input type="text" placeholder="Type here.." name="mobno">
-                </div> 
+                </div>
                 <button id="shareAppLinkButton">Share App Link</button>
             </div>
             <div>Download app from</div>
             <div class="get_app_content_store_images">
-                <img src="images/appleStore.png"/>
-                <img src="images/playStore.png"/>
+                <img src="images/appleStore.png" />
+                <img src="images/playStore.png" />
             </div>
 
 
         </div>
     </section>
 
-   
+    <section class="explore_options">
+        <h1>Explore options near me</h1>
+        <div class="explore_options_cards_container">
+            <div class="explore_options_card">
+                <div class="explore_options_card_title explore_options_card_title1">
+                    <h2>Popular cuisines near me</h2>
+                    <p><i class="fa-solid fa-angle-down"></i></p>
+                </div>
+                <div class="explore_options_card_description explore_options_card_description1">
+                    Bakery food near meBeverages food near meBiryani food near meBurger food near meChinese food near
+                    meDesserts food near meIce Cream food near meKebab food near meMaharashtrian food near meMomos food
+                    near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich
+                    food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near
+                    meStreet food near me
+                </div>
+            </div>
+            <div class="explore_options_card">
+                <div class="explore_options_card_title explore_options_card_title2">
+                    <h2>Popular restaurant types near me</h2>
+                    <p><i class="fa-solid fa-angle-down"></i></p>
+                </div>
+                <div class="explore_options_card_description explore_options_card_description2">
+                    Bakery food near meBeverages food near meBiryani food near meBurger food near meChinese food near
+                    meDesserts food near meIce Cream food near meKebab food near meMaharashtrian food near meMomos food
+                    near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich
+                    food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near
+                    meStreet food near me
+                </div>
+            </div>
+            <div class="explore_options_card">
+                <div class="explore_options_card_title explore_options_card_title3">
+                    <h2>Top Restaurant Chains</h2>
+                    <p><i class="fa-solid fa-angle-down"></i></p>
+                </div>
+                <div
+                    class="explore_options_card_description explore_options_card_description_grid explore_options_card_description3">
+
+                    <p><a href="#">Bikanervala</a></p>
+
+                    <p> <a href="#"> Burger King</a></p>
+                    <p><a href="#"> Domino's Dunkin' </a></p>
+                    <p><a href="#">Donuts</a></p>
+                    <p> <a href="#"> Haldiram's</a></p>
+                    <p><a href="#"> KFC</a></p>
+                    <p><a href="#">Krispy Kreme</a></p>
+                    <p><a href="#">McDonald's</a></p>
+                    <p><a href="#"> Pizza Hut</a></p>
+                    <p><a href="#">WOW!Momo</a></p>
+                </div>
+            </div>
+            <div class="explore_options_card">
+                <div class="explore_options_card_title explore_options_card_title4">
+                    <h2>Cities We Deliver To</h2>
+                    <p><i class="fa-solid fa-angle-down"></i></p>
+                </div>
+                <div
+                    class="explore_options_card_description explore_options_card_description_grid explore_options_card_description4">
+
+                    <a href="#">Delhi NCR</a>
+                    <a href="#">Kolkata</a>
+                    <a href="#">Mumbai</a>
+                    <a href="#">Bengaluru</a>
+                    <a href="#">Pune</a>
+                    <a href="#">Hyderabad</a>
+                    <a href="#">Chennai</a>
+                    <a href="#">Lucknow</a>
+                    <a href="#">Kochi</a>
+                    <a href="#">Jaipur</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer_top_panel">
+            <img src="Images/logo.png">
+            <div class="footer_top_panel_dropdowns">
+                <div class="footer_country">
+                    <i class="flag flag-india"></i>
+                    <p>India</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="footer_language">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>English</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer_cards_container">
+            <div class="footer_card">
+                <h2>About Zomato</h2>
+                <p><a href="#">Who We Are</a></p>
+                <p><a href="#">Blog</a></p>
+                <p><a href="#">Work With Us</a></p>
+                <p><a href="#">Investor Relations</a></p>
+                <p><a href="#">Report Fraud</a></p>
+                <p><a href="#">Contact Us</a></p>
+            </div>
+            <div class="footer_card">
+                <h2>Zomaverse</h2>
+                <p><a href="#">Zomato</a></p>
+                <p><a href="#">Feeding India</a></p>
+                <p><a href="#">Hyperpure</a></p>
+                <p><a href="#">Zomaland</a></p>
+            </div>
+            <div class="footer_card">
+                <h2>For Restaurants</h2>
+                <p><a href="#">Partner With Us</a></p>
+                <p><a href="#">Apps For You</a></p>
+                
+                <h2>For Enterprises</h2>
+                <p><a href="#">Zomato For Work</a></p>
+            </div>
+            <div class="footer_card">
+                <h2>Learn More</h2>
+                <p><a href="#">Privacy</a></p>
+                <p><a href="#">Security</a></p>
+                <p><a href="#">Terms</a></p>
+                <p><a href="#">Sitemap</a></p>
+            </div>
+            <div class="footer_card">
+                <h2>Social links</h2>
+                <div class="social_logos">
+                    <div><i class="fa-brands fa-linkedin-in"></i></div>
+                    <div><i class="fa-brands fa-instagram"></i></div>
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-brands fa-youtube"></i></div>
+                    <div><i class="fa-brands fa-facebook-f"></i></div>
+                </div>
+                <img src="Images/appleStore.png"/>
+                <img src="Images/playStore.png"/>
+
+            </div>
+        </div>
+    </section>
+
+
     <script src="myjs.js"></script>
 </body>
 
